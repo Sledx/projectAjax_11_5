@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Guntur:300');
+* {
+    box-sizing: border-box;
+    font-family: 'Hind Guntur', sans-serif;
+}
+h1 {
+    margin: 0 auto;
+}
+h2 {
+    font-size: 20px;
+}
+main {
+    background-color: deepskyblue;
+    height: 100vh;
+    text-align: center;
+    color: floralwhite;
+    padding-top: 20vh;
+}
+main > div > div {
+    margin: 10vh 0;
+}
+button {
+    width: 200px;
+    height: 30px;
+    background-color: deepskyblue;
+    border: 1px solid;
+    line-height: 30px;
+    display: block;
+    margin: 15px auto;
+    color: floralwhite;
+}
+i,
+a {
+    color: floralwhite;
+    text-decoration: none !important;
+}
